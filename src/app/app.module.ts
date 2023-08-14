@@ -8,6 +8,9 @@ import { FormsModule } from '@angular/forms'; // <-- NgModel lives here
 import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 import { MessagesComponent } from './messages/messages.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatButtonModule} from '@angular/material/button';
 
 
 @NgModule({
@@ -15,13 +18,17 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     AppComponent,
     HeroesComponent,
     HeroDetailComponent,
-    MessagesComponent,
-    DashboardComponent
+    MessagesComponent
+   
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    BrowserAnimationsModule,
+    MatToolbarModule,
+    MatButtonModule,
+    DashboardComponent
   ],
   providers: [],
   bootstrap: [AppComponent]

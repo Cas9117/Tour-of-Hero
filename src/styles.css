@@ -1,6 +1,6 @@
 /* Application-wide Styles*/
 h1 {
-    color: #811919;
+    color: #f5efef;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 250%;
   }
@@ -20,3 +20,5 @@ h1 {
   * {
     font-family: Arial, Helvetica, sans-serif;
   }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

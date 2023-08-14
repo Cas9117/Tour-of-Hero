@@ -1,14 +1,14 @@
 import { Hero } from "./hero";
 
 export const HEROES: Hero[] = [
-  { id: 11, name: 'Dr Nice' },
-  { id: 12, name: 'Narco' },
-  { id: 13, name: 'Bombasto' },
-  { id: 14, name: 'Celeritas' },
-  { id: 15, name: 'Magneta' },
-  { id: 16, name: 'RubberMan' },
-  { id: 17, name: 'Dynama' },
-  { id: 18, name: 'Dr IQ' },
-  { id: 19, name: 'Magma' },
-  { id: 20, name: 'Tornado' }
+  { id: 1, name: 'Wolverine',image:'assets/img/Imagenes-tout-of-heroes/Wolverine.jpg' ,logo:'assets/img/Logo/LogoWolverine.jpg',description:'Wolverine, cuyo nombre de nacimiento es James Howlett (también conocido como James Logan o simplemente Logan),3​ es un superhéroe y antihéroe ficticio que aparece en los cómics publicados por Marvel Comics, principalmente en asociación con los X-Men. Es un mutante que posee sentidos afinados a los animales, capacidades físicas mejoradas, poderosa capacidad de regeneración conocida como un factor de curación, y tres garras retráctiles en cada mano. Wolverine ha sido representado de diversas formas como miembro de los X-Men, Alpha Flight, Fuerza-X y Los Vengadores.' },
+  { id: 2, name: 'Spiderman',image:'assets/img/Imagenes-tout-of-heroes/Spiderman.jpeg',logo:'assets/img/Logo/spiderman-logo.jpg',description:'pider-Man, traducido en ocasiones como el Hombre Araña,​​ es un personaje creado por los estadounidenses Stan Lee y Steve Ditko,​​ e introducido en el cómic Amazing Fantasy n.° 15, publicado por Marvel Comics en agosto de 1962.​ Se trata de un superhéroe que emplea sus habilidades sobrehumanas, reminiscentes de una araña, para combatir a otros supervillanos que persiguen fines siniestros.' },
+  { id: 3, name: 'Superman',image:'assets/img/Imagenes-tout-of-heroes/Superman.jpeg',logo:'assets/img/Logo/LogoSuperman.jpg',description:'Superman es un superhéroe ficticio que apareció por primera vez en los cómics estadounidenses publicados por DC Comics.​ ​ ​ ​ El personaje fue creado por el escritor estadounidense Jerry Siegel y el artista canadiense Joe Shuster en 1933 cuando ambos se encontraban viviendo en Cleveland, Ohio' },
+  { id: 4, name: 'Ghost Rider',image:'assets/img/Imagenes-tout-of-heroes/Ghost.jpg',logo:'assets/img/Logo/LogoGhostRider.jpg',description:'Ghost Rider es el nombre de muchos antihéroes que aparecen en los cómics estadounidenses publicados por Marvel Comics. Marvel había usado previamente el nombre en un personaje del oeste cuyo nombre más tarde se cambió a Jinete Fantasma.' },
+  { id: 5, name: 'Hellboy',image:'assets/img/Imagenes-tout-of-heroes/Hellboy.jpg',logo:'assets/img/Logo/LogoHellboy.jpg',description:'Hellboy es un superhéroe ficticio creado por el escritor y dibujante Mike Mignola. El personaje apareció por primera vez en San Diego Comic-Con Comics # 2, y desde entonces ha aparecido en varias miniseries epónimas, one-shots y crossovers entre compañías.' },
+  { id: 6, name: 'RubberMan' },
+  { id: 7, name: 'Dynama' },
+  { id: 8, name: 'Dr IQ' },
+  { id: 9, name: 'Magma' },
+  { id: 10, name: 'Tornado' }
 ];
